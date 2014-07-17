@@ -31,7 +31,7 @@ import java.net.SocketException;
  * @author gregory.block@gmail.com (Gregory Block)
  */
 public class SocketLock implements Lock {
-  public static final int DEFAULT_PORT = 7055;
+  public static final int DEFAULT_PORT = 9999;
   private static final long DELAY_BETWEEN_SOCKET_CHECKS = 2000;
 
   private static Object syncObject = new Object();
